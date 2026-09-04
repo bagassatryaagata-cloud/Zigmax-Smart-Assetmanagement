@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Zigmax - Smart Asset Management<</title>
+</head>
+<body>
+<!-- =================================
+         MAIN BACKGROUND
+    ================================= -->
+
+    <div class="animated-bg">
+
+        <!-- CORNER LIGHT -->
+        <div class="corner-light light-left"></div>
+        <div class="corner-light light-right"></div>
+
+
+        <div class="ambient-glow"></div>
+
+        <div class="grid"></div>
+
+        <!-- MAIN FLOW -->
+        <div class="flow-lines">
+
+            <svg viewBox="0 0 1440 800"
+                 preserveAspectRatio="none">
+
+                <path
+                    class="main-line"
+                    d="M-250 650
+                       C150 250, 400 850, 760 500
+                       S1150 150, 1700 480"
+                />
+
+                <path
+                    class="main-line second"
+                    d="M-250 450
+                       C200 750, 450 100, 800 450
+                       S1200 750, 1700 300"
+                />
+
+            </svg>
+
+        </div>
+
+        <div class="particles"></div>
+
+    </div>
+
+
+    <!-- =================================
+         NAVBAR
+    ================================= -->
+
+    <nav class="navbar">
+
+    <div class="logo">
+        ZIGMAX
+    </div>
+
+    <!-- MENU -->
+    <div class="nav-menu" id="navMenu">
+        <a href="home.html">Home</a>
+        <a href="feature.html">Feature</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="Contact.html">Contact Us</a>
+    </div>
+
+ <button class="nav-button">
+            Get Started
+        </button>
+
+
+
+    <!-- HAMBURGER -->
+    <button
+        class="hamburger"
+        id="hamburger"
+        type="button"
+        onclick="toggleMenu()"
+    >
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+</nav>
+
+    <!-- =================================
+         HERO
+    ================================= -->
+
+    <main class="hero" >
+
+        <div class="hero-content">
+
+            <span class="eyebrow">
+                FEATURE
+            </span>
+
+            <h1>
+                Everything You Need to
+                <span>Manage Your Assets.</span>
+            </h1>
+
+            <p>
+                Manage your assets with ease through powerful tools built to keep everything organized, efficient, and under control
+            </p>
+
+            
+
+        </div>
+
+    </main>
+
+<section class="photo-section" >
+
+    <div class="photo-heading">
+        <span>EXPLORE ZIGMAX</span>
+
+        <h2>
+            Smarter Asset
+            <strong>Management.</strong>
+        </h2>
+
+        <p>
+            Everything you need to manage and monitor
+            your company assets in one place.
+        </p>
+    </div>
+
+
+    <div class="bagiangambar">
+
+        <!-- FOTO 1 -->
+        <div class="card gambar-muter posisi-1">
+
+            <img src="img/dashboard.jpeg" alt="Zigmax Dashboard">
+
+            <div class="photo-overlay">
+                <span>01</span>
+                <h3>Asset Dashboard</h3>
+            </div>
+
+        </div>
+
+
+        <!-- FOTO 2 -->
+        <div class="card gambar-muter posisi-2">
+
+            <img src="img/register.jpeg" alt="Register">
+
+            <div class="photo-overlay">
+                <span>02</span>
+                <h3>Register</h3>
+            </div>
+
+        </div>
+
+
+        <!-- FOTO 3 -->
+        <div class="card gambar-muter posisi-3">
+
+            <img src="img/Derpreciation.jpeg" alt="Asset Depreciation">
+
+            <div class="photo-overlay">
+                <span>03</span>
+                <h3>Depreciation</h3>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="why-section" id="whychooseZigmax">
+
+    <!-- BACKGROUND ANIMATION -->
+    <div class="why-bg">
+
+        <div class="why-orb why-orb-1"></div>
+        <div class="why-orb why-orb-2"></div>
+        <div class="why-orb why-orb-3"></div>
+
+        <div class="why-grid"></div>
+
+        <svg class="why-flow" viewBox="0 0 1440 800"
+            preserveAspectRatio="none">
+
+            <path
+                d="M-200 650
+                   C150 200, 400 850, 700 430
+                   S1100 100, 1650 500"
+            />
+
+            <path
+                d="M-200 300
+                   C200 700, 450 80, 800 450
+                   S1200 750, 1650 250"
+            />
+
+        </svg>
+
+    </div>
+
+
+    <!-- HEADING -->
+
+    <div class="why-heading">
+
+        <span>WHY ZIGMAX</span>
+
+        <h2>
+            Built for
+            <strong>Better Asset Management.</strong>
+        </h2>
+
+        <p>
+            Discover the features that help businesses
+            manage assets more efficiently, accurately,
+            and securely.
+        </p>
+
+    </div>
+
+
+    <!-- CARD -->
+
+    <div class="features-footer1">
+
+        <!-- CARD 1 -->
+        <div class="feature-card card_1">
+
+            <div class="feature-icon1">
+                <i data-lucide="scan-barcode" class="icon"></i>
+            </div>
+
+            <div class="Feature-text">
+
+                <h3 class="card-title">
+                    Barcode Integration
+                </h3>
+
+                <p class="card-explain">
+                    Generate barcode labels and print them
+                    directly through compatible printers for
+                    faster and more accurate asset identification.
+                </p>
+
+                <div class="card-label">
+                    <i data-lucide="check"></i>
+                    <h4>Faster Labeling</h4>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- CARD 2 -->
+        <div class="feature-card">
+
+            <div class="feature-icon2">
+                <i data-lucide="chart-column" class="icon"></i>
+            </div>
+
+            <div class="Feature-text">
+
+                <h3 class="card-title">
+                    Comprehensive Reports
+                </h3>
+
+                <p class="card-explain">
+                    Generate comprehensive reports including
+                    asset movement, depreciation, categories,
+                    properties, departments, and more.
+                </p>
+
+                <div class="card-label">
+                    <i data-lucide="check"></i>
+                    <h4>Accurate Data</h4>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- CARD 3 -->
+        <div class="feature-card">
+
+            <div class="feature-icon3">
+                <i data-lucide="archive-restore" class="icon"></i>
+            </div>
+
+            <div class="Feature-text">
+
+                <h3 class="card-title">
+                    Archive Center
+                </h3>
+
+                <p class="card-explain">
+                    Recover soft-deleted records anytime while
+                    maintaining complete asset history and
+                    data integrity.
+                </p>
+
+                <div class="card-label label3">
+                    <i data-lucide="check"></i>
+                    <h4>Restore Anytime</h4>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- CARD 4 -->
+        <div class="feature-card">
+
+            <div class="feature-icon4">
+                <i data-lucide="user-round" class="icon"></i>
+            </div>
+
+            <div class="Feature-text">
+
+                <h3 class="card-title">
+                    User Management
+                </h3>
+
+                <p class="card-explain">
+                    Create and organize user accounts, assign
+                    roles, and manage teams efficiently from
+                    one centralized platform.
+                </p>
+
+                <div class="card-label">
+                    <i data-lucide="check"></i>
+                    <h4>Organize User</h4>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- CARD 5 -->
+        <div class="feature-card">
+
+            <div class="feature-icon5">
+                <i data-lucide="shield" class="icon"></i>
+            </div>
+
+            <div class="Feature-text">
+
+                <h3 class="card-title">
+                    Access Control
+                </h3>
+
+                <p class="card-explain">
+                    Control user permissions with role-based
+                    access, ensuring every user only accesses
+                    the features they need.
+                </p>
+
+                <div class="card-label">
+                    <i data-lucide="check"></i>
+                    <h4>Secure Access</h4>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- CARD 6 -->
+        <div class="feature-card">
+
+            <div class="feature-icon6">
+                <i data-lucide="package" class="icon"></i>
+            </div>
+
+            <div class="Feature-text">
+
+                <h3 class="card-title">
+                    Asset Lifecycle Management
+                </h3>
+
+                <p class="card-explain">
+                    Manage assets from registration and barcode
+                    labeling to movement, depreciation, and reporting.
+                </p>
+
+                <div class="card-labell">
+                    <i data-lucide="check"></i>
+                    <h4>End-to-end Asset Management</h4>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================================
+     HOW ZIGMAX WORKS
+========================================= -->
+
+<section class="footer-secondary" id="howitzigmax">
+
+    
+
+
+    <!-- =========================================
+     HOW ZIGMAX WORKS - NEW SECTION
+========================================= -->
+
+<section class="how-section" id="how-zigmax">
+
+    <!-- BACKGROUND -->
+    <div class="how-bg">
+
+        <div class="how-orb how-orb-1"></div>
+        <div class="how-orb how-orb-2"></div>
+        <div class="how-orb how-orb-3"></div>
+
+        <div class="how-grid"></div>
+
+        <!-- LIGHT PARTICLES -->
+        <div class="how-particles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </div>
+
+
+    <!-- HEADER -->
+
+    <div class="how-header">
+
+        <span class="how-label">
+            HOW ZIGMAX WORKS
+        </span>
+
+        <h2>
+            From Asset to
+            <span>Insight.</span>
+        </h2>
+
+        <p>
+            Simplify every step of your asset management
+            with a smarter and more organized workflow.
+        </p>
+
+    </div>
+
+
+    <!-- TIMELINE -->
+
+    <div class="how-timeline">
+
+        <!-- CENTRAL LINE -->
+        <div class="how-line"></div>
+
+
+        <!-- CARD 01 - LEFT -->
+
+        <div class="how-card how-left">
+
+            <div class="how-card-number">
+                01
+            </div>
+
+            <div class="how-icon">
+                <i data-lucide="box"></i>
+            </div>
+
+            <div class="how-content">
+
+                <span>STEP 01</span>
+
+                <h3>
+                    Register Asset
+                </h3>
+
+                <p>
+                    Add new assets manually and include important
+                    information such as category, register code,
+                    tagging type, measurement, and depreciation.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- CARD 02 - RIGHT -->
+
+        <div class="how-card how-right">
+
+            <div class="how-card-number">
+                02
+            </div>
+
+            <div class="how-icon">
+                <i data-lucide="chart-column"></i>
+            </div>
+
+            <div class="how-content">
+
+                <span>STEP 02</span>
+
+                <h3>
+                    Organize & Monitor
+                </h3>
+
+                <p>
+                    Manage daily asset activities including locations,
+                    department movements, maintenance schedules,
+                    and asset disposal.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- CARD 03 - LEFT -->
+
+        <div class="how-card how-left">
+
+            <div class="how-card-number">
+                03
+            </div>
+
+            <div class="how-icon">
+                <i data-lucide="map-pin"></i>
+            </div>
+
+            <div class="how-content">
+
+                <span>STEP 03</span>
+
+                <h3>
+                    Track Asset
+                </h3>
+
+                <p>
+                    Monitor asset locations and movements while
+                    generating detailed reports for better visibility
+                    and control.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- CARD 04 - RIGHT -->
+
+        <div class="how-card how-right">
+
+            <div class="how-card-number">
+                04
+            </div>
+
+            <div class="how-icon">
+                <i data-lucide="chart-no-axes-combined"></i>
+            </div>
+
+            <div class="how-content">
+
+                <span>STEP 04</span>
+
+                <h3>
+                    Advanced Analytics
+                </h3>
+
+                <p>
+                    Gain useful insights from depreciation,
+                    maintenance costs, and disposal cycles
+                    to optimize asset performance.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<!-- ================================
+     FOOTER
+================================ -->
+
+<footer class="footer" id="about">
+
+    <!-- 3D DECORATION KIRI -->
+    <div class="footer-3d footer-3d-left">
+        <div class="cube-3d">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <!-- 3D DECORATION KANAN -->
+    <div class="footer-3d footer-3d-right">
+        <div class="orb-3d">
+            <div class="orb-ring"></div>
+            <div class="orb-core"></div>
+        </div>
+    </div>
+
+
+    <!-- BRAND -->
+    <div class="judul-footer">
+
+        <div class="logo">
+            <img src="img/logoz.png" alt="ZIGMAX Logo">
+
+            <h4 class="footer-judul">
+                ZIG<span>MAX</span>
+            </h4>
+        </div>
+
+        <p class="explain-footer">
+            Empower your business with Zigmax, a modern asset management
+            platform to track, organize, and optimize every company asset
+            in one secure.
+        </p>
+    </div>
+
+
+    <!-- CONTACT ICON -->
+    <div class="kontak">
+
+        <a href="https://wa.me/6287711420652">
+            <svg xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+
+                <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/>
+            </svg>
+        </a>
+
+
+        <a href="mailto:bagassatryaagata@gmail.com">
+
+            <svg xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+
+                <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/>
+                <rect x="2" y="4" width="20" height="16" rx="2"/>
+
+            </svg>
+
+        </a>
+
+    </div>
+
+
+    <!-- FOOTER CONTENT -->
+    <div class="isi-footer">
+
+
+        <!-- COMPANY -->
+        <div class="isi-company">
+
+            <h5 class="company">
+                Company
+            </h5>
+
+            <a href="#about">
+                About Us
+            </a>
+
+        </div>
+
+
+        <!-- FEATURE -->
+        <div class="isi-feature">
+
+            <h5 class="feature">
+                Feature
+            </h5>
+
+            <a href="#">
+                Asset Management
+            </a>
+
+            <a href="#">
+                Reports
+            </a>
+
+            <a href="#">
+                Master Data
+            </a>
+
+        </div>
+
+
+        <!-- CONTACT -->
+        <div class="isi-contact">
+
+            <h5 class="contact">
+                Contact
+            </h5>
+
+            <a href="mailto:Zigmax@gmail.com">
+                Zigmax@gmail.com
+            </a>
+
+            <a href="tel:081234567890">
+                081234567890
+            </a>
+
+            <p>
+                Bali, Indonesia
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <hr class="garis">
+
+
+    <!-- COPYRIGHT -->
+    <div class="copyright">
+
+        <p class="copyright1">
+            © 2026 ZIGMAX. All rights reserved.
+        </p>
+
+        <p class="explain-copyright">
+            Asset Management Made Simple
+        </p>
+
+    </div>
+
+</footer>
+
+<!-- LUCIDE -->
+<script src="https://unpkg.com/lucide@latest"></script>
+
+
+    <script src="./js/script.js"></script>
+
+</body>
+</html>
